@@ -3,10 +3,12 @@
 Rest Node API with JWT token based.
 
 To use repository:
+
 Clone the repository.
-> git clone <repository>
+>> git clone <repository_name>
+
 To install dependent packages
-> npm install
+>> npm install
 
 To start:
-> npm start
+>> npm start
