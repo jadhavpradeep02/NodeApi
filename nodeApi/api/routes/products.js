@@ -1,11 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const mongoose = require('mongoose');
 const multer = require('multer');
 const upload = multer({dest: 'uploads/'});
+
 const checkAuth = require('../middleware/check-auth');
 const ProductController = require('../controllers/product');
-const Product = require('../models/product');
 
 router.get('/', checkAuth, ProductController.products_get_all);
 
