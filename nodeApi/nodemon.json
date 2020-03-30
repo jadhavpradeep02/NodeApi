@@ -1,0 +1,6 @@
+{
+    "env": {
+        "Mongo_Atlas_PW" : "node-api",
+        "JWT_KEY": "secret"
+    }
+}
